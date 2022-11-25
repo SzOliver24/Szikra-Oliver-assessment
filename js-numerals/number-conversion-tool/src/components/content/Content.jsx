@@ -10,7 +10,7 @@ const Content = () => {
       {words == "" ? <h3>Waiting for a number</h3> : <h3>{words}</h3>}
       <div className="field">
         <Label for="number">
-          Please type here the number you want to convert:
+          Please type here the number you would like to convert:
         </Label>
         <Input
           id="number"
